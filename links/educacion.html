@@ -28,9 +28,67 @@
             <li> <a href="../links/experiencia.html">Experiencia</a></li>
           </ul>
 
+          <h2>Educación.</h2>
+
+          <table border="1" cellpadding="5" cellspacing="0">
+      			<thead>
+      				<tr>
+      					<th>Año</th>
+      					<th>Institución</th>
+      					<th>Lugar</th>
+      					<th>¿Culmino?</th>
+      				</tr>
+      			</thead>
+      			<tbody>
+      				<tr>
+      					<td>2000</td>
+      					<td>Instituto Tecnico Nacional de Comercio</td>
+      					<td>San José de Cúcuta</td>
+      					<td>SI</td>
+      				</tr>
+      				<tr>
+      					<td>2010</td>
+      					<td>Instituto Tecnico Industrial Salesiano.</td>
+      					<td>San José de Cúcuta</td>
+      					<td>SI</td>
+      				</tr>
+      				<tr>
+      					<td>2013</td>
+      					<td>Universidad Sergio Arboleda</td>
+      					<td>Bogóta D.C.</td>
+      					<td>NO</td>
+      				</tr>
+      			</tbody>
+      		</table>
+
+        <form title="Agregar Estudios" action="#" method="post">
+          <h2>Agregar Estudios</h2>
+          <p>
+            <label for="año">Año: </label>
+              <select class="" name="">
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+              </select>
+          </p>
+          <p>
+            <label for="institucion">Institución: </label>
+            <input type="text" name="institucion" required>
+          </p>
+          <p>
+              <label for="lugar">Lugar: </label>
+              <textarea name="lugar" rows="6" cols="40"></textarea>
+          </p>
+          <p>
+            <label for="culmino">¿Culminó? </label>
+            <input type="radio" name="siCulmino" value="SI">SI
+            <input type="radio" name="noCulmino" value="NO">NO
+          </p>
+          <button type="submit" name="button">Submit</button>
+        </form>
 
   <footer>
-        <p> @Derechos Reservados</p>
+        <br>
+        <strong>Contacto: </strong>
     <ul>
       <li><strong>Email: </strong><a href="#"> andresfbernalm@gmail.com</a></li>
       <li><strong>Teléfono:</strong> (+57) 318-700-2387</li>
